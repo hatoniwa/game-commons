@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>movideo – Next Preview</title>
+<style>
+  body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI','Noto Sans',sans-serif;
+    color: #fff;
+    text-align: center;
+    background: #000 url('https://hatoniwa.github.io/game-commons/images/end_bg.jpg') center/cover no-repeat;
+    background-attachment: fixed;
+  }
+  main {
+    background: rgba(0,0,0,0.6);
+    padding: 24px 20px;
+    border-radius: 16px;
+    width: 90%;
+    max-width: 640px;
+    box-shadow: 0 0 20px rgba(0,255,255,0.5);
+    animation: fadein 2s ease forwards;
+  }
+  @keyframes fadein {
+    from { opacity: 0; transform: translateY(40px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  h1 {
+    font-size: 28px;
+    margin-bottom: 10px;
+    color: #00ffd0;
+    text-shadow: 0 0 15px rgba(0,255,200,0.7);
+  }
+  p {
+    font-size: 16px;
+    margin-bottom: 20px;
+    opacity: .9;
+  }
+  .btn {
+    display: inline-block;
+    padding: 12px 22px;
+    margin: 8px;
+    font-weight: 700;
+    font-size: 16px;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #00ffd0;
+    border-radius: 8px;
+    background: rgba(0,255,208,0.1);
+    transition: background .25s, transform .15s;
+  }
+  .btn:hover { background: rgba(0,255,208,0.3); transform: scale(1.04); }
+  .next {
+    display: block;
+    margin-top: 24px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #ffd54a;
+    text-shadow: 0 0 10px rgba(255,200,100,0.6);
+  }
+  footer {
+    margin-top: 20px;
+    font-size: 12px;
+    opacity: .6;
+  }
+  .logo {
+    width: 120px;
+    margin-bottom: 12px;
+    filter: drop-shadow(0 0 8px rgba(0,255,255,0.7));
+  }
+</style>
+</head>
+<body>
+  <main>
+    <!-- 🎞️ movideo ロゴ -->
+    <img src="https://hatoniwa.github.io/game-commons/images/movideo_logo.png" alt="movideo logo" class="logo">
+
+    <h1>movideo – Next Menu</h1>
+    <p>Select what you’d like to explore next.</p>
+
+    <a class="btn" href="https://hatoniwa.github.io/movideo-docks-jjmovid/gameA.html" target="_blank" rel="noopener">
+      🎮 Play Game A
+    </a>
+
+    <a class="btn" href="https://hatoniwa.github.io/movideo-docks-kkmovid/gameC.html" target="_blank" rel="noopener">
+      🎮 Play Game C
+    </a>
+
+    <a class="btn" href="https://youtube.com/shorts/ZBwZzelO6OQ?si=NhFWI1p9wsGIZ-yX"
+       target="_blank" rel="noopener">📺 Watch on YouTube</a>
+
+    <!-- 🌙 次回予告リンク -->
+    <a class="next" href="https://hatoniwa.github.io/movideo-docks-next/index.html">
+      🌙 Next Episode: Coming Soon →
+    </a>
+
+    <footer>© movideo / hatoniwa</footer>
+  </main>
+</body>
+</html>

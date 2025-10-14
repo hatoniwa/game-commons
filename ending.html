@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Ending Scene</title>
+<style>
+  body {
+    margin: 0;
+    background: black;
+    color: white;
+    font-family: 'Segoe UI','Noto Sans',sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+  }
+  h1 {
+    font-size: 28px;
+    color: #00ffd0;
+    margin-bottom: 10px;
+  }
+  p {
+    opacity: 0.8;
+    font-size: 16px;
+  }
+</style>
+</head>
+<body>
+  <h1>Thank you for playing!</h1>
+  <p>The next menu will open shortly...</p>
+
+<script>
+  // 7秒後に共通メニューへ遷移
+  setTimeout(() => {
+    location.href = "https://hatoniwa.github.io/game-commons/end_card_preview.html";
+  }, 7000);
+</script>
+</body>
+</html>
