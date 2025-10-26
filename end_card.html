@@ -1,74 +1,85 @@
 <!DOCTYPE html>
-<html lang="ja">
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>movideo – Select Your Next Step</title>
-  <style>
-    body {
-      margin: 0;
-      background: radial-gradient(circle at 50% 30%, #001018 0%, #000 90%);
-      color: #fff;
-      font-family: 'Segoe UI', 'Noto Sans JP', sans-serif;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
-    }
-    main {
-      text-align: center;
-      width: 90%;
-      max-width: 640px;
-    }
-    h1 {
-      font-size: 28px;
-      margin-bottom: 18px;
-      color: #00ffd0;
-      text-shadow: 0 0 10px rgba(0,255,200,0.6);
-    }
-    p {
-      font-size: 16px;
-      opacity: .9;
-      margin-bottom: 24px;
-    }
-    .btn {
-      display: inline-block;
-      padding: 12px 22px;
-      margin: 10px;
-      font-weight: 700;
-      font-size: 16px;
-      text-decoration: none;
-      color: #fff;
-      border: 1px solid #00ffd0;
-      border-radius: 8px;
-      background: rgba(0,255,208,0.1);
-      transition: background .25s, transform .15s;
-    }
-    .btn:hover {
-      background: rgba(0,255,208,0.3);
-      transform: scale(1.04);
-    }
-    .ghost {
-      opacity: .7;
-    }
-    footer {
-      font-size: 12px;
-      margin-top: 30px;
-      opacity: .5;
-    }
-  </style>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>movideo – End Card</title>
+<style>
+  body {
+    margin: 0;
+    background: radial-gradient(circle at 50% 30%, #001018 0%, #000 90%);
+    color: #fff;
+    font-family: 'Segoe UI','Noto Sans',sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+  }
+  main {
+    width: 90%;
+    max-width: 640px;
+  }
+  h1 {
+    font-size: 28px;
+    color: #00ffd0;
+    text-shadow: 0 0 10px rgba(0,255,200,0.6);
+    margin-bottom: 18px;
+  }
+  p {
+    font-size: 16px;
+    line-height: 1.6;
+    opacity: .9;
+    margin-bottom: 28px;
+  }
+  .btn {
+    display: inline-block;
+    padding: 12px 22px;
+    margin: 10px;
+    font-weight: 700;
+    font-size: 16px;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #00ffd0;
+    border-radius: 8px;
+    background: rgba(0,255,208,0.1);
+    transition: background .25s, transform .15s;
+  }
+  .btn:hover {
+    background: rgba(0,255,208,0.3);
+    transform: scale(1.04);
+  }
+  .ghost {
+    opacity: .7;
+  }
+  footer {
+    font-size: 12px;
+    opacity: .5;
+    margin-top: 20px;
+  }
+</style>
 </head>
 <body>
-  <main>
-    <h1>movideo – Next Menu</h1>
-    <p>次に進むコンテンツを選んでください。<br>Choose your next experience.</p>
+<main>
+  <h1>movideo – Next Menu</h1>
+  <p>Select what you’d like to explore next.</p>
 
-    <a class="btn" href="./gameA.html">🎮 Game A をプレイ</a>
-    <a class="btn" href="./gameC.html">🎮 Game C をプレイ</a>
-    <a class="btn" href="https://youtube.com/shorts/ZBwZzelO6OQ?si=NhFWI1p9wsGIZ-yX" target="_blank" rel="noopener">📺 YouTube を見る</a>
-    <a class="btn ghost" href="./index.html">🏠 トップページへ戻る</a>
+  <a class="btn" href="https://hatoniwa.github.io/movideo-docks-jjmovid/gameA.html" target="_blank" rel="noopener">
+    🎮 Play Game A
+  </a>
 
-    <footer>© movideo / hatoniwa</footer>
-  </main>
+  <a class="btn" href="https://hatoniwa.github.io/movideo-docks-kkmovid/gameC.html" target="_blank" rel="noopener">
+    🎮 Play Game C
+  </a>
+
+  <a class="btn" href="https://youtube.com/shorts/ZBwZzelO6OQ?si=NhFWI1p9wsGIZ-yX"
+     target="_blank" rel="noopener">📺 Watch on YouTube</a>
+
+  <a class="btn ghost" href="https://hatoniwa.github.io/movideo-docks-bbmovid/index.html">
+    🏠 Back to Home
+  </a>
+
+  <footer>© movideo / hatoniwa</footer>
+</main>
 </body>
 </html>
